@@ -4,6 +4,7 @@ import "./home.css"
 import Slideshow from '../slideshow/Slideshow';
 import welcomeImage from '../../images/welcome.gif'
 import About from '../About/About';
+import HelpSlider from '../slideshow/HelpSlider';
 
 const Home = () => {
 
@@ -86,7 +87,8 @@ const Home = () => {
         <button className='predict-btn' onClick={handleSubmit}>Predict</button>
         {prediction && <p className='prediction-text'>Prediction: {prediction}</p>}
       </div>
-      <Slideshow />
+      {/* <Slideshow /> */}
+      <HelpSlider />
       <About />
     </div>
   )

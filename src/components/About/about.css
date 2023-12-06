@@ -25,3 +25,7 @@
     word-break: break-all;
 }
 
+.about-description > p{
+    margin-top: 10px;
+}
+
