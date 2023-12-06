@@ -8,7 +8,7 @@ const diseasesData = [
       {
         id: 1,
         name: 'Plaque Psoriasis',
-        image: 'plaque_pso.JPEG',
+        image: 'plaque_pso.jpeg',
         description: 'The most common type of psoriasis, plaque psoriasis causes dry, itchy, raised skin patches (plaques) covered with scales. There may be few or many. They usually appear on the elbows, knees, lower back and scalp. The patches vary in color, depending on skin color. The affected skin might heal with temporary changes in color (post inflammatory hyperpigmentation), particularly on brown or Black skin...',
         moreInfo: 'https://www.mayoclinic.org/diseases-conditions/psoriasis/symptoms-causes/syc-20355840#:~:text=Plaque%20psoriasis.,color%2C%20depending%20on%20skin%20color.',
       },
@@ -22,7 +22,7 @@ const diseasesData = [
       {
         id: 3,
         name: 'Guttate Psoriasis',
-        image: 'Guttate_pso.JPEG',
+        image: 'guttate_pso.jpeg',
         description: 'Guttate psoriasis is a skin disease that often appears without warning and usually follows an infection like strep throat. It’s most common in young adults but can also happen in adults. The hallmark symptom of this condition is breaking out in small, red scaly patches...',
         moreInfo: 'https://my.clevelandclinic.org/health/diseases/22812-guttate-psoriasis',
       },
