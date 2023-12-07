@@ -29,3 +29,28 @@
     margin-top: 10px;
 }
 
+.linkedin-btn{
+  color: #00bfff;
+  cursor: pointer;
+}
+
+/* Your existing styles here */
+
+/* Media Query for Mobile */
+@media only screen and (max-width: 768px) {
+    .about-image{
+        margin-bottom: 10px;
+    }
+    .about-description {
+      text-align: center; /* Optional: Center align the content */
+      padding: 10px; /* Reset padding for mobile */
+      margin: 0;
+    }
+  
+    .about-para {
+      width: 100%; /* Set the width to 100% for mobile screens */
+      display: block; /* Ensure paragraphs behave as block-level elements */
+      margin-right: 10px; /* Add some vertical margin between paragraphs */
+    }
+  }
+  
