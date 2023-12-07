@@ -34,10 +34,15 @@
   cursor: pointer;
 }
 
-/* Your existing styles here */
 
 /* Media Query for Mobile */
 @media only screen and (max-width: 768px) {
+    .about{
+      margin-top: 50px;
+    }
+    .about-heading{
+      font-size: 40px;
+    }
     .about-image{
         margin-bottom: 10px;
     }

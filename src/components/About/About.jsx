@@ -5,10 +5,10 @@ import "../About/about.css";
 const About = () => {
   return (
     <div className="about">
-      <div className="about-heading">About Us</div>
+      <div className="about-heading" >About Us</div>
       <img className="about-image" src={logo} alt={"Logo"} />
       <div className="about-description">
-        <p className="about-para">
+        <p className="about-para" align="justify">
           At our core, we are a team of 3 passionate final year B.Tech
           enthusiasts :{" "}
         </p>
@@ -43,7 +43,7 @@ const About = () => {
           </a>
         </p>
 
-        <p className="about-para">
+        <p className="about-para" align="justify">
           We are committed to leveraging cutting-edge technology for impactful
           solutions. We are final year students pursuing B.Tech in C.S.E. from
           B.P.I.T Delhi. Among our proudest achievements is the development of a
