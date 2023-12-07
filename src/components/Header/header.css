@@ -114,3 +114,39 @@
   color: rgb(0, 0, 0);
   /* border: 1px solid rgb(209, 209, 209); */
 }
+
+/* Your existing styles here */
+
+/* Media Query for Mobile */
+@media only screen and (max-width: 768px) {
+  .headerCont {
+    height: auto;
+  }
+
+  .context{
+    margin-left: 5px;
+  }
+
+  .navBar {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .headerBtn{
+    margin-top: 1px;
+    height: auto;
+    padding: 0;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: #333; 
+    font-style: italic;
+  }
+}
+
+
+
+/* Larger screens (laptops, desktops, etc.) */
+@media only screen and (min-width: 769px) {
+  /* Keep your existing styles for larger screens here */
+  /* They will be applied for devices with a minimum width of 769px */
+}
